@@ -12,6 +12,7 @@ import { GraficoDonaComponent } from "../components/grafico-dona/grafico-dona.co
 import { BrowserModule } from '@angular/platform-browser'
 
 import { PAGES_ROUTES } from './pages.routes';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { PAGES_ROUTES } from './pages.routes';
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     imports: [
         sharedModule,
